@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="index.css">
+	<title>Counter</title>
+</head>
+<body>
+	<h1>People entered:</h1>
+	<h2 id="count-el">0</h2>
+	<button id="increment-btn" onclick="increment()">INCREMENT</button>
+	<button id="save-btn" onclick="save()">SAVE</button>
+
+	<p id="save-el"></p><br><br>
+
+	<span id="num1"></span>
+	<span id="num2"></span><br><br>
+	<button onclick="add()">Add</button>
+	<button onclick="sub()">Subtract</button>
+	<button onclick="div()">Divide</button>
+	<button onclick="mul()">Multiply</button><br><br>
+	<span id="sum">Sum: </span><br><br><br><br>
+
+
+	<h1>Blackjack</h1>
+	<p id="message-el">Want to play a round?</p>
+	<p id="cards-el"> Cards: </p>
+	<p id="sum-el"> Sum: </p>
+	<button onclick="startGame()">Start Game</button><br>
+	<button onclick="newcard()">New Card</button>
+	<p id="player-el"></p><br><br><br>
+
+	<input type="text" id="input-el">
+	<button id="input-btn" onclick="saveLead()">SAVE INPUT</button>
+	<ul id="ul-el"></ul>
+	<div id="container"></div>
+	<script src="index.js"></script>
+
+</body>
+</html>
